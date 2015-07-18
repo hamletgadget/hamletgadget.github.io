@@ -1,47 +1,374 @@
-<!DOCTYPE html>
-<html lang="ru">
-    <head>
+    <!DOCTYPE html>
+    <!-- 
+    ************ Project Description ************
+    Project name:
+    Short description:
+    Project theme:
+    Team:
+    Web-developer:
+    Notes:
+    ************ Project Description ************ -->
+    <html lang="en">
+      <head>
         <meta charset="utf-8">
-        <title>Hamlet - TeenГрад 2015</title>
+        <title>Hamlet - Переосмысленный поиск вещей</title>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="shortcut icon" href="../flat-ui/images/favicon.ico">
-        <link rel="stylesheet" href="../flat-ui/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="../flat-ui/css/flat-ui.css">
-        <!-- Using only with Flat-UI (free)-->
-        <link rel="stylesheet" href="../common-files/css/icon-font.css">
+         <!-- Including a lots of things! Probably, I don't know that made this fragment of a code! Certainly I joked!-->
+        <link rel="shortcut icon" href="flat-ui/images/favicon.ico">
+        <link rel="stylesheet" href="flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="flat-ui/css/flat-ui.css">
         <!-- end -->
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+        <!-- Using only with Flat-UI (free)-->
+        <link rel="stylesheet" href="common-files/css/icon-font.css">
+        <!-- end -->
+        <!-- Including CSS files to our project! Do you know for what?-->
+        <link rel="stylesheet" href="common-files/css/animations.css">
+        <link rel="stylesheet" href="ui-kit/ui-kit-header/css/ui-kit-styles.css">
+        <link rel="stylesheet" href="ui-kit/ui-kit-content/css/ui-kit-styles.css">
+        <link rel="stylesheet" href="ui-kit/ui-kit-projects/css/ui-kit-styles.css">
+        <link rel="stylesheet" href="ui-kit/ui-kit-crew/css/ui-kit-styles.css">
+        <link rel="stylesheet" href="ui-kit/ui-kit-contacts/css/ui-kit-styles.css">
+        <link rel="stylesheet" href="ui-kit/ui-kit-footer/css/ui-kit-styles.css">
+          
+        <!-- end -->
+      </head>
+      <body>
+        <style>
+body {
+    padding-top: 0
+}
+        </style>
 
-    <body>
+<section class="header-9-sub bg-midnight-blue">
+    <div class="background">&nbsp;</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="hero-unit bordered">
+                    <p class="wide-text">Hamlet</p>
+                </div>
+                <p class="wide-text text-warning">Переосмысляем поиск вещей</p>
+            </div>
+        </div>
+        <div class="nav-steps">
+            <a href="#" class="active">Главная</a>
+            <div class="steps-selectors">
+                <a href="#" class="active">/</a>
+                <a href="#features">/</a>
+                <a href="#projects">/</a>
+                <a href="#team">/</a>
+            </div>
+            <a href="#contacts">Контакты</a>
+        </div>
+    </div>
+</section>
 
-        <div class="page-wrapper">
-            <!-- header-14 -->
-            <section class="header-14-sub">
-                <div class="background">&nbsp;</div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2">
-                            <div class="header-14">
-                                <span class="fui-cmd"> </span>
-                                <div>COMING SOON</div>
-                            </div>
-                            <div class="hero-unit">
-                                <h1>Hamlet</h1>
-                            </div>
-                            <h3>Переосмысляем поиск вещей</p>
+<section class="content-10">
+    <div class="container" id="features">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Поисковое устройство Hamlet</h3>
+                <p>Ни для кого не секрет, что каждый день теряется огромное количество вещей, но с помощью нашего гаджета эти потери можно легко вернуть. </p>
+                <div class="features">
+                    <div class="box">
+                        <img src="common-files/img/icons/Checked.png" width="90" height="90" alt="">
+                        <h6>Простое в использовании</h6>
+                        <p>Устройство для поиска вещей, которое понравится вашей маме!</p>
+                    </div>
+                    <div class="box">
+                        <img src="common-files/img/icons/Ruble.png" width="90" height="90" alt="">
+                        <h6>Бюджетно</h6>
+                        <p>Наше устройство изготовлено из качественных, но недорогих материалов</p>
+                    </div>
+                    <div class="box">
+                        <img src="common-files/img/icons/Design.png" width="90" height="90" alt="">
+                        <h6>Разные варианы дизайна</h6>
+                        <p>Инновационный корпус нашего устройства изготавливается на 3D принтере, что позволяет нам создать уникальный и неповторимый дизайн. Помимо современного корпуса, планируется изготовление эксклюзивной версии устройства в корпусе из экологически чистого дерева.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2 text-center">
+                <div id="c-10_myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="common-files/img/content/iphone@2x.png" width="303" height="636" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="common-files/img/content/iphone-n@2x.png" width="303" height="636" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="common-files/img/content/iphone@2x.png" width="303" height="636" alt="">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#c-10_myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#c-10_myCarousel" data-slide-to="1"></li>
+                        <li data-target="#c-10_myCarousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
+<section class="projects-2" id="projects">
+    <div class="project-1 v-center">
+        <div><!--v-center-->
+            <div class="container">
+                <h1>Hamlet</h1>
+                <p>Переосмысленный поиск вещей</p>
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/v-center-->
+    </div>
+    <div class="project-2 v-center">
+        <div><!--v-center-->
+            <div class="container">
+                <div class="hero-unit">
+                    <h1>Кружка</h1>
+                    <p>Coming soon</p>
+                </div>
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/v-center-->
+    </div>
+</section>
+<section class="crew-1" id="team">
+    <div class="container">
+        <h3>Наша команда</h3>
+        <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-11.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Александр Князьков </div>
+                        Тьютор. Гений, радиотехник. Теряет голову от молний.
+                    </div>
+                </div>
+            </div>
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-10.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Татьяна Кащеева </div>
+                       Тьютор, журналист. Теряет телефон в заднем кармане.
+                    </div>
+                </div>
+            </div>
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-12.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Максим Адамович </div>
+                        Экономист, </br>серьезный человек.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-4.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Виктория Шибанова </div>
+                        Дизайнер. Теряет термос в комнатах друзей.
+                    </div>
+                </div>
+            </div>
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-1.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Илья Хвастунов </div>
+                        Маркетолог. Теряет любимую кружку.
+                    </div>
+                </div>
+            </div>
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-2.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Александр Запорожец </div>
+                        3D-моделлер. Теряет самообладание.
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-8.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Любовь Ивлиева   </div>
+                        PR-агент.</br>Теряет чужое время.
+                    </div>
+                </div>
+            </div>
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-15.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Вадим Копылов </div>
+                        Инженер-механик. Теряет ключи от квартиры в квартире.
+                    </div>
+                </div>
+            </div>
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-6.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Мария Никишина </div>
+                        3D-моделлер. Теряет ориентацию в осях координат. 
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-7.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Валерия Ларина</div>
+                       Экономист. Теряет деньги в интернет-магазинах
+                    </div>
+                </div>
+            </div>
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-14.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Никита Токарев  </div>
+Инженер-механик. Теряет время в социальных сетях.
+                    </div>
+                </div>
+            </div>
+<div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-3.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Полина Токарева </div>
+Маркетолог, филолог-художник. Теряет очки на столе.
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-5.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Илона Шахназарян </div>
+                        PR-агент.</br> Теряет зарядное устройство от телефона.
+                    </div>
+                </div>
+            </div>
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-9.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Дарья Юркина </div>
+Директор, дизайнер. Теряет чувство юмора при виде серьезного дела.
+                    </div>
+                </div>
+            </div>
+<div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="common-files/img/team/hamlet-13.jpg" alt="" style="display: none;"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Гамлет</div>
+                        Талисман</br>
+                        Идеолог</br> 
+                        Просто теряется</br>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.container-->
+</section>
+<section class="contacts-5" id="contacts">
+    <div class="container">
+        <h1>Контакты</h1>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="box box-first">
+                    <h6>Пенза, Россия</h6>
+                    <p>Россия,	Пенза,	ул. Попова, 66 губернский лицей-интерант для одаренных детей</p>
+                </div>
+                <br class="hidden-xs">
+            </div>
+            <div class="col-sm-4 col-sm-offset-1 box">
+                <h6>Помощь</h6>
+                <p>Нужна помощь? Не стесняйтесь, пишите на почту <a href="malito:hamletgadget@outlook.com">hamletgadget@outlook.com</a>.</p>
+            </div>
+            <div class="col-sm-3 col-sm-offset-1 box">
+                <h6>Инвесторам</h6>
+                <p>Мы открыты для инвестиций!</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="../common-files/js/jquery-1.10.2.min.js"></script>
-        <script src="../flat-ui/js/bootstrap.min.js"></script>
-        <script src="../common-files/js/modernizr.custom.js"></script>
-        <script src="../common-files/js/startup-kit.js"></script>
-        <script src="js/script.js"></script>
-    </body>
-</html>
+    <!-- Professional secret of web-dev Ilya Khvastunov -->
+    <script src="common-files/js/jquery-1.10.2.min.js"></script>
+    <script src="flat-ui/js/bootstrap.min.js"></script>
+    <script src="common-files/js/modernizr.custom.js"></script>
+    <script src="common-files/js/page-transitions.js"></script>
+    <script src="common-files/js/jquery.backgroundvideo.min.js"></script>
+    <script src="common-files/js/froogaloop.min.js"></script>
+    <script src="common-files/js/startup-kit.js"></script>
+      </body>
+      <!--
+      *** Developer Copyright ***
+      © Copyright 2014 Ilya Khvastunov - *Project name*
+      All rights reserved!
+      !-->
+      </html>
